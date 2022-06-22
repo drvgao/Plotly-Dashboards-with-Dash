@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 # read a .csv file into a pandas DataFrame:
-df = pd.read_csv('../sourcedata/nst-est2017-alldata.csv')
+df = pd.read_csv('./sourcedata/nst-est2017-alldata.csv')
 # grab just the six New England states:
 df2 = df[df['DIVISION']=='1']
 # set the index to state name:
